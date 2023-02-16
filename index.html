@@ -12,32 +12,39 @@
 
 <body>
     <div id="container">
-
-        <div class="product-details">
+        <div id="first-child">
+            <div class="first-grandchild">
+                <label>Change
+                    <select id="zodiacSigns">
+                        <option value="Aries">Aries</option>
+                        <option value="Taurus">Taurus</option>
+                        <option value="Gemini">Gemini</option>
+                        <option value="Cancer">Cancer</option>
+                        <option value="Leo">Leo</option>
+                        <option value="Virgo">Virgo</option>
+                        <option value="Libra">Libra</option>
+                        <option value="Scorpio">Scorpio</option>
+                        <option value="Sagittarius">Sagittarius</option>
+                        <option value="Capricorn">Capricorn</option>
+                        <option value="Aquarius">Aquarius</option>
+                        <option value="Pisces">Pisces</option>
+                    </select>
+                </label>
+            </div>
+            <div id="second-grandchild">
+                <p>asda</p>
+                <p>asdasd</p>
+            </div>
+        </div>
+        <div class="product-details" id="second-child">
             <h1 id="parameters"></h1>
             <p id="information"></p>
-        </div>
-
-        <div class="product-image">
-            <img id="zodiac_image" src="https://media.istockphoto.com/id/1068936728/photo/astrological-zodiac-signs-astrology-and-horoscopes-concept-3d-render-glowing-lines-neon.jpg?b=1&s=170667a&w=0&k=20&c=kgATcVFUCauCFzKoOLWXWcymUggKsT-UVF5bUOmnZ_w=
-            " alt="">
-
-            <div class="info">
-                <h2 id="current_date"></h2>
-                <ul>
-                    <h4>Color: <span id="color"></span></h4>
-                    <h4>Lucky number: <span id="lucky_number"></span></h4>
-                    <h4>Lucky time: <span id="lucky_time"></span></h4>
-                    <h4>Mood: <span id="mood"></span></h4>
-                    <h4>Compatibility: <span id="compatibility"></span></h4>
-                </ul>
-            </div>
         </div>
 
     </div>
 
 
-    <script src="script.js" />
+    <script src="index.js" />
 </body>
 
 </html>
